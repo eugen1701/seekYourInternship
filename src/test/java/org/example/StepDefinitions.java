@@ -118,8 +118,8 @@ public class StepDefinitions {
         assert (testToPass);
     }
 
-    @And("all the required fields are visible")
-    public void allTheRequiredFieldsAreDisplayed() {
+    @And("all the required fields are visible for {string} page")
+    public void allTheRequiredFieldsAreDisplayed(String page) {
         assert(testToPass);
     }
 
@@ -130,6 +130,41 @@ public class StepDefinitions {
 
     @When("all the required fields are filled in with {string} data")
     public void allTheRequiredFieldsAreFilledInWithData(String isValid) {
+        assert (testToPass);
+    }
+
+    @Given("a new user on the home page")
+    public void aNewUserOnTheHomePage() {
+        assert (testToPass);
+    }
+
+    @And("the profile of the {string} user should be visible")
+    public void theProfileOfTheUserShouldBeVisible(String role) {
+        assert (testToPass);
+    }
+
+    @And("the {string} of the given user is displayed")
+    public void theOfTheGivenUserIsDisplayed(String element) {
+        assert (testToPass);
+    }
+
+    @And("the {string} element is visible")
+    public void theElementIsVisible(String element) {
+        assert(testToPass);
+    }
+
+    @And("user is able to write a message in {string} element")
+    public void userIsAbleToWriteAMessageInElement(String element) {
+        assert (testToPass);
+    }
+
+    @When("the user starts to write the message")
+    public void theUserStartsToWriteTheMessage() {
+        assert(testToPass);
+    }
+
+    @Then("the message is sent to the other user and he received it")
+    public void theMessageIsSentToTheOtherUserAndHeReceivedIt() {
         assert (testToPass);
     }
 }

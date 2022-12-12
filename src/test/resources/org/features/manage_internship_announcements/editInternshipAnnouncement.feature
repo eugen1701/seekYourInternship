@@ -11,3 +11,5 @@ Feature: Edit internship announcement
     When the user starts to "modify" the data
     Then a "save" button appear
     When the user finish to change data
+    And user click on the "save" button
+    Then a notification that the operation is successful appears

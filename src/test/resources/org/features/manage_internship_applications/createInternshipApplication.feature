@@ -7,7 +7,7 @@ Feature: Users can apply for internships
     And the "apply" button is visible
     When user click on the "apply" button
     Then user is redirected to "application form" page
-    And all the required fields are visible
+    And all the required fields are visible for "application form" page
     And the "send application" button is visible and "not clickable"
     And user is able to fill in the required information for a new "application"
     When the user starts to "fill in" the data
