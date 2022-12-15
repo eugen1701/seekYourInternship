@@ -78,7 +78,7 @@ public class StepDefinitions {
         assert (testToPass);
     }
 
-    @When("the user types {string} in the {string} field")
+    @When("the user types {string} in the {string} field of the filter")
     public void theUserTypesInTheField(String inputString, String field) {
         assert(testToPass);
     }
@@ -133,7 +133,7 @@ public class StepDefinitions {
         assert (testToPass);
     }
 
-    @Given("a new user on the home page")
+    @Given("a new user on the registration page")
     public void aNewUserOnTheHomePage() {
         assert (testToPass);
     }
@@ -158,13 +158,23 @@ public class StepDefinitions {
         assert (testToPass);
     }
 
-    @When("the user starts to write the message")
+    @When("the user sends a message")
     public void theUserStartsToWriteTheMessage() {
         assert(testToPass);
     }
 
     @Then("the message is sent to the other user and he received it")
     public void theMessageIsSentToTheOtherUserAndHeReceivedIt() {
+        assert (testToPass);
+    }
+
+    @Then("the new information are saved")
+    public void theNewInformationAreSaved() {
+        assert(testToPass);
+    }
+
+    @When("user modifies the data of the given internship offer")
+    public void userModifiesTheDataOfTheGivenInternshipOffer() {
         assert (testToPass);
     }
 }

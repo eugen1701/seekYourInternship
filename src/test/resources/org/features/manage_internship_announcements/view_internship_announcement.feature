@@ -1,6 +1,6 @@
 Feature: View internship announcements
   Scenario: A user can pick one announcement from the list and see all the details about it
-    Given a user with "any" role
+    Given a user with "student" role
     And the user is on the "home" page
     When the user clicks on an "internship announcement"
     Then a "inspect announcement" pop-out is displayed
